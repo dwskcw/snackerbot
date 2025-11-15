@@ -1,6 +1,6 @@
 # Snackerbot
 
-![Submitty duck in a witch outfit](submitty-witch.png)
+![Partial output of a snackerbot command.](screenshot.png)
 
 Discord bot that fetches and lists menu items for the four RPI dining halls.
 
