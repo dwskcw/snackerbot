@@ -164,7 +164,10 @@ client.on('interactionCreate', async interaction => {
 				components: [row]
 			});
 		}
-	
+		else if (action === 'meal') {
+    			const hall = params[0];
+    			const vegetarian = params[1] === 'true';
+    			const meal = selectedValue;	
 		
 			try {
 				const menuData = getMenu(hall, meal, vegetarian);
